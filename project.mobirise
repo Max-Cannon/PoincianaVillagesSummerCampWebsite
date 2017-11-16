@@ -1,0 +1,1053 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "versionFirst": "2.11.1",
+    "versionPublish": "3.12.1",
+    "name": "APV Kids Summer Camp 2016",
+    "theme": {
+      "name": "unicore",
+      "title": "Unicore",
+      "styling": {
+        "primaryColor": "#29d9c2",
+        "successColor": "#7ac673",
+        "infoColor": "#27aae0",
+        "warningColor": "#faaf40",
+        "dangerColor": "#f97352",
+        "titleFont": "Montserrat",
+        "textFont": "Raleway",
+        "isSquareButtons": false
+      }
+    },
+    "mcShopcart": {
+      "email": "mickhael.cannon@live.com"
+    },
+    "uniqCompNum": 0
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": "unicore/components",
+          "_name": "menu2",
+          "_anchor": "menu2-0",
+          "_params": {
+            "logo": true,
+            "brandName": true,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/new-apv-lifestyle-logo-970x400pxl-970x400-11.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Association of Poinciana Villages Lifestyle Events and Activities Logo",
+              "link": "http://poincianalifestyle.com",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brandName": "<a data-app-btn=\"true\" data-app-selector=\".navbar-header a\" href=\"./index.html\" class=\"navbar-brand brand\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Kids Summer camp</a>",
+          "buttons": "<li><a data-app-btn=\"true\" class=\"btn btn-primary\" data-app-selector=\".nav.navbar-nav.navbar-right a\" href=\"index.html#contacts4-7\" data-toolbar=\"-mbrBtnMove\"><span class=\"mdi-image-edit mbr-iconfont mbr-iconfont-btn\"></span>Newsletter</a></li>",
+          "itemsRight": "<li class=\"dropdown1\"><a class=\"text-white\" data-app-btn=\"true\" data-app-selector=\".nav.navbar-nav.navbar-right a\" href=\"#top\">Home</a><a class=\"text-white\" data-app-btn=\"true\" data-app-selector=\".nav.navbar-nav.navbar-right a\" href=\"index.html#header24-17\"><span class=\"mdi-editor-insert-photo mbr-iconfont mbr-iconfont-btn\"></span>Photos</a> <a class=\"text-white\" data-app-btn=\"true\" data-app-selector=\".nav.navbar-nav.navbar-right a\" href=\"index.html#header20-15\"><span class=\"mdi-av-videocam mbr-iconfont mbr-iconfont-btn\"></span>Videos</a><a class=\"text-white\" data-app-btn=\"true\" data-app-selector=\".nav.navbar-nav.navbar-right a\" href=\"index.html#form1-4\"><span class=\"mdi-communication-email mbr-iconfont mbr-iconfont-btn\"></span>Contact</a></li>"
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "slider",
+          "_params": {
+            "autoplay": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "slides": [
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/20160620-135633-4032x3024-6.jpg",
+                "contentAlign": "left",
+                "overlay": "true",
+                "overlayOpacity": "0.5",
+                "showTitle": true,
+                "title": "NEWS",
+                "showText": true,
+                "text": "With over 100 children registered, the first week of APV Kid's Summer Camp 2016 was a 'huge blast', to quote one child! APV Campers have been progressing successfully through their chosen classes of art, music ( Piano, Guitar, Voice ), dramatic acting and nutritional cooking. An exciting array of briskly-paced group activities in the pool, at the playground, during meal time and at our big weekly events, have kept our happy APV campers from even one milli-second of boredom!<br>",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-primary\" href=\"index.html#msg-box17-2\" data-toolbar=\"-mbrBtnMove\">Camp E-Registration</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"index.html#contacts4-7\" data-toolbar=\"-mbrBtnMove\">Newsletter Sign-up</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/20160621-135040-4032x3024-63.jpg",
+                "contentAlign": "center",
+                "overlay": "true",
+                "showTitle": true,
+                "title": "Music Classes",
+                "showText": true,
+                "text": "Lean your body forward slightly to support the guitar against your chest, for the poetry of the music should resound in your heart...<br>- Andres Segovia<br>",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-primary\" href=\"index.html#header24-17\" data-toolbar=\"-mbrBtnMove\">View Music Class Photos&nbsp;</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"index.html#msg-box17-2\" data-toolbar=\"-mbrBtnMove\">Camp e-registration</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/20160620-134553-4032x3024-12.jpg",
+                "contentAlign": "right",
+                "overlay": "true",
+                "showTitle": true,
+                "title": "Art Classes",
+                "showText": true,
+                "text": "If you hear a voice within you say 'you cannot paint,' then by all means paint, and that voice will be silenced...<br>- Vincent Van Gogh",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-primary\" href=\"index.html#header24-18\" data-toolbar=\"-mbrBtnMove\">View Art Class Photos</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"index.html#msg-box17-2\" data-toolbar=\"-mbrBtnMove\">CAmp e-registration</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/20160620-135209-4032x3024-7.jpg",
+                "contentAlign": "left",
+                "overlay": "true",
+                "showTitle": true,
+                "title": "Drama Classes",
+                "showText": true,
+                "text": "I honed my passion for acting in theatre and education, and I think it's important not to belittle the child audience...<br>- Rhys Ifans<br>",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-primary\" href=\"index.html#header24-19\" data-toolbar=\"-mbrBtnMove\">View Drama Class Photos</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"index.html#msg-box17-2\" data-toolbar=\"-mbrBtnMove\">Camp E-Registration</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/20160613-131411-resized-2656x1494-53.jpg",
+                "contentAlign": "center",
+                "overlay": "true",
+                "showTitle": true,
+                "title": "Cooking Classes",
+                "showText": true,
+                "text": "From a young age, I understood the idea of balanced flavor - the reason you put ketchup on a hamburger. I was that kid who wouldn't eat something if there was something missing. I never really understood it until I began cooking professionally, balancing acids, sweets, spicy flavors and fat...<br>- Michael Mina<br>",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-primary\" href=\"index.html#header24-21\" data-toolbar=\"-mbrBtnMove\">View Cooking Class &nbsp;Photos&nbsp;</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"index.html#msg-box17-2\" data-toolbar=\"-mbrBtnMove\">Camp e-registration</a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/1466085636439-7303383199-352c0ac5-960x540-22.jpg",
+                "contentAlign": "right",
+                "overlay": "true",
+                "overlayOpacity": "0.3",
+                "showTitle": true,
+                "title": "Play Time",
+                "showText": true,
+                "text": "Life is a game - play it. Life is a song - sing it. Life is a challenge - meet it. Life is a dream - realize it. Life is a sacrifice - offer it. Life is love - enjoy it...<br>- Sai Baba<br>",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-primary\" href=\"index.html#header24-22\" data-toolbar=\"-mbrBtnMove\">View Play Time Photos</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"index.html#msg-box17-2\" data-toolbar=\"-mbrBtnMove\">CAmp e-registration</a>"
+              }
+            ],
+            "bgColor": "#ffffff",
+            "fullScreen": true,
+            "showBullets": false
+          },
+          "_anchor": "slider-1",
+          "articleLayout": false
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "msg-box17",
+          "_styles": {
+            "SPAN": {
+              "font-size": "48px"
+            }
+          },
+          "_anchor": "msg-box17-2",
+          "_params": {
+            "elements": "4",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#222",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showTitles": true,
+            "showSubtitle": false,
+            "showText": true
+          },
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-info btn-circle\" data-toggle=\"tab\" href=\"#menu1-1\" data-toolbar=\"-mbrBtnMove\"><span class=\"mdi-maps-local-drink mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 50px;\"></span></a>",
+          "title1": "GEAR",
+          "button2": "<a data-app-btn=\"true\" class=\"btn btn-default btn-circle\" data-toggle=\"tab\" href=\"#menu2-1\" data-toolbar=\"-mbrBtnMove\"><span class=\"mdi-maps-local-restaurant mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 60px;\"></span></a>",
+          "title2": "EATS",
+          "button3": "<a data-app-btn=\"true\" class=\"btn btn-default btn-circle\" data-toggle=\"tab\" href=\"#menu3-1\" data-toolbar=\"-mbrBtnMove\"><span class=\"mdi-notification-dnd-forwardslash mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 60px;\"></span></a>",
+          "title3": "NO-NOs",
+          "button4": "<a data-app-btn=\"true\" class=\"btn btn-default btn-circle\" data-toggle=\"tab\" href=\"#menu4-1\" data-toolbar=\"-mbrBtnMove\"><span class=\"mdi-action-done mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 60px;\"></span></a>",
+          "title4": "TO-DOs",
+          "subtitle1": "Camp GEAR Reminder",
+          "text1": "Please remember to pack a bathing suit, towel, sunscreen, snack and water-bottle with your camper each morning...",
+          "subtitle2": "Camp EATS Reminder",
+          "text2": "Breakfast starts at 8:30am so please try to drop your camper off between 7:30/8:00am...",
+          "subtitle3": "Camp NO-NO Reminder",
+          "text3": "APV Kid's Summer Camp has a 'No Tolerance' bullying policy...",
+          "subtitle4": "Camp TO-DO Reminder",
+          "text4": "Registration and/or payment for next week’s camp session is due on Friday of the week prior to enrollment..."
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "parallax1",
+          "_styles": {
+            "B": {
+              "font-size": "22px",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            }
+          },
+          "_anchor": "parallax1-3",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": 2,
+            "bgImage": "@PROJECT_PATH@/assets/images/apv-community-north-community-building-parallax-1920x1750-8.png",
+            "bgImageRadio": true,
+            "overlay": true,
+            "overlayOpacity": "0.3",
+            "overlayColor": "#151515",
+            "showTitle": true,
+            "showText": true
+          },
+          "title": "E-register Your Child For Camp",
+          "text": "<b style=\"font-style: normal;\"><a href=\"http://camp2016.poincianalifestyle.com\" target=\"_blank\">Click Here To E-Register and/or Make A Payment</a></b>"
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "msg-box9",
+          "_styles": {
+            "P": {
+              "font-size": "20px"
+            }
+          },
+          "_anchor": "msg-box9-5",
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#29d9c2",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showButtons": false
+          },
+          "title": "Have a Question? Contact The Camp Staff",
+          "text": "We typically will respond in less than 24 hours of receiving your email",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn cta-btn btn-default\" href=\"https://mobirise.com\">Purchase now</a>"
+        },
+        {
+          "title": "CONTACT FORM",
+          "alias": "unicore/components",
+          "_name": "form1",
+          "_anchor": "form1-4",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#29d9c2",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515"
+          },
+          "form": {
+            "action": "opmi@opmi-lessons.com",
+            "alerts": {
+              "success": "Thank you for contacting the APV Summer Camp Staff - We will respond to you in a timely fashion."
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Your Name here*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email Address here*"
+              },
+              "subject": {
+                "title": "subject",
+                "visible": true,
+                "customTitle": "Subject"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Question here?"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-default btn-ico\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Send Inquiry<i class=\"fa fa-paper-plane-o\"></i></a>"
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "header20",
+          "_anchor": "header20-15",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/20160620-135506-4032x3024-39.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "width": 1280,
+              "height": 720,
+              "url": "https://youtu.be/8jQ5uyaDmNs/"
+            },
+            "bgVideoRadio": true,
+            "overlay": true,
+            "overlayOpacity": "0.4",
+            "overlayColor": "#000000",
+            "showTitle": true,
+            "showText": true,
+            "showVideo": false,
+            "VideoUrl": "",
+            "showButtons": false
+          },
+          "title": "Tickle Some Keys At Camp",
+          "text1": "I went to college on a classical piano scholarship. My grandmother made me practice one full hour a day. Every day. Man. I thought all she wanted was for me not to have any fun. Next thing you know, you have a career in music. Now, not everybody's going to go on and be Mozart or Michael Jackson. But music makes you smarter...<br>- Jamie Foxx<br>",
+          "text2": "Watch<i class=\"icon-play2\"></i>Video",
+          "buttons": "<a data-app-btn=\"true\" href=\"#\" class=\"btn btn-lg btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">E-Register For Camp</a><a data-app-btn=\"true\" href=\"#\" class=\"btn btn-lg btn-default btn-border\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">E-Subscribe For Newsletter</a>"
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "header20",
+          "_anchor": "header20-16",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/20160620-135209-4032x3024-87.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/gS154wuvo68?rel=0&autoplay=0&loop=0"
+            },
+            "bgVideoRadio": true,
+            "overlay": true,
+            "overlayOpacity": "0.4",
+            "overlayColor": "#151515",
+            "showTitle": true,
+            "showText": true,
+            "showVideo": false,
+            "VideoUrl": "https://youtu.be/gS154wuvo68",
+            "showButtons": false
+          },
+          "title": "Create Some Drama!",
+          "text1": "Drama is very important in life: You have to come on with a bang. You never want to go out with a whimper. Everything can have drama if it's done right. Even a pancake...<br>- Julia Child<br>",
+          "text2": "Watch<i class=\"icon-play2\"></i>Video",
+          "buttons": "<a data-app-btn=\"true\" href=\"#\" class=\"btn btn-lg btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Contact Summer Camp</a><a data-app-btn=\"true\" href=\"#\" class=\"btn btn-lg btn-default btn-border\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">E-Subscribe To Newsletter</a>"
+        },
+        {
+          "_inherit": "header4",
+          "alias": "unicore/components",
+          "_name": "header24",
+          "_anchor": "header24-17",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/11.jpg",
+            "bgColor": "#29d9c2",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.75,
+            "overlayColor": "#151515",
+            "showTitle": true,
+            "showText": false,
+            "showForm": false
+          },
+          "title1": "Camp Music Classes",
+          "text": "Nam tellus turpis blandit et ligula vel lacinia massa sit amet minus fugit in ipsum semper euismod massa auctor magna eget nunc iaculis nunc.",
+          "form": {
+            "title": "SUBSCRIBE",
+            "action": "mickhael.cannon@live.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Full Name",
+                "visible": true,
+                "customTitle": "Full Name"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email Address here"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary btn-block\">SUBSCRIBE</a>"
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160620-133921-4032x3024-38-2000x1500-69.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160620-133921-4032x3024-38.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160620-134051-4032x3024-23-2000x1500-5.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160620-134051-4032x3024-23.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160620-135441-4032x3024-15-2000x1500-77.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160620-135441-4032x3024-15.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160620-135448-4032x3024-67-2000x1500-30.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160620-135448-4032x3024-67.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160620-135506-4032x3024-54-2000x1500-95.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160620-135506-4032x3024-54.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160620-135628-4032x3024-78-2000x1500-32.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160620-135628-4032x3024-78.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160620-135633-4032x3024-3-2000x1500-22.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160620-135633-4032x3024-3.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160620-133905-4032x3024-96-2000x1500-62.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160620-133905-4032x3024-96.jpg",
+                "active": true
+              }
+            ],
+            "bgColor": "#4c6972",
+            "filter": false,
+            "fullWidth": false,
+            "noGutter": true,
+            "showBullets": true,
+            "showText": false
+          },
+          "_anchor": "gallery1-8",
+          "articleLayout": false
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160621-135040-4032x3024-78-2000x1500-34.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160621-135040-4032x3024-78.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160621-135051-4032x3024-59-2000x1500-1.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160621-135051-4032x3024-59.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160621-135057-4032x3024-22-2000x1500-6.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160621-135057-4032x3024-22.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160621-135110-4032x3024-8-2000x1500-51.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160621-135110-4032x3024-8.jpg",
+                "active": true
+              }
+            ],
+            "bgColor": "#4c6972",
+            "filter": false,
+            "fullWidth": false,
+            "noGutter": true,
+            "showBullets": true,
+            "showText": false
+          },
+          "_anchor": "gallery1-20",
+          "articleLayout": false
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/1466085648018-0892213750-a375342c-900x1200-83-900x1200-23.jpg",
+                "image": "@PROJECT_PATH@/assets/images/1466085648018-0892213750-a375342c-900x1200-83.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/1466085648037-0389031290-a375342c-900x1200-41-900x1200-38.jpg",
+                "image": "@PROJECT_PATH@/assets/images/1466085648037-0389031290-a375342c-900x1200-41.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/1466085648130-0999274575-a375342c-900x1200-81-900x1200-42.jpg",
+                "image": "@PROJECT_PATH@/assets/images/1466085648130-0999274575-a375342c-900x1200-81.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/music-1-480x640-48-480x640-97.png",
+                "image": "@PROJECT_PATH@/assets/images/music-1-480x640-48.png",
+                "active": true
+              }
+            ],
+            "bgColor": "#4c6972",
+            "filter": false,
+            "fullWidth": false,
+            "noGutter": true,
+            "showBullets": true,
+            "showText": false
+          },
+          "_anchor": "gallery1-24",
+          "articleLayout": false
+        },
+        {
+          "_inherit": "header4",
+          "alias": "unicore/components",
+          "_name": "header24",
+          "_anchor": "header24-18",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/11.jpg",
+            "bgColor": "#29d9c2",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.75,
+            "overlayColor": "#151515",
+            "showTitle": true,
+            "showText": false,
+            "showForm": false
+          },
+          "title1": "Camp Art Classes",
+          "text": "Nam tellus turpis blandit et ligula vel lacinia massa sit amet minus fugit in ipsum semper euismod massa auctor magna eget nunc iaculis nunc.",
+          "form": {
+            "title": "SUBSCRIBE",
+            "action": "mickhael.cannon@live.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Full Name",
+                "visible": true,
+                "customTitle": "Full Name"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email Address here"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary btn-block\">SUBSCRIBE</a>"
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160620-134540-4032x3024-9-2000x1500-41.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160620-134540-4032x3024-9.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160620-134553-4032x3024-46-2000x1500-39.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160620-134553-4032x3024-46.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160620-134624-4032x3024-67-2000x1500-84.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160620-134624-4032x3024-67.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160620-134613-4032x3024-62-2000x1500-39.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160620-134613-4032x3024-62.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160620-134602-4032x3024-73-2000x1500-92.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160620-134602-4032x3024-73.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160620-134546-4032x3024-10-2000x1500-41.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160620-134546-4032x3024-10.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160620-134527-4032x3024-86-2000x1500-8.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160620-134527-4032x3024-86.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160620-134553-4032x3024-42-2000x1500-45.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160620-134553-4032x3024-42.jpg",
+                "active": true
+              }
+            ],
+            "bgColor": "#4c6972",
+            "filter": false,
+            "fullWidth": false,
+            "noGutter": true,
+            "showBullets": true,
+            "showText": false
+          },
+          "_anchor": "gallery1-12",
+          "articleLayout": false
+        },
+        {
+          "_inherit": "header4",
+          "alias": "unicore/components",
+          "_name": "header24",
+          "_anchor": "header24-19",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/11.jpg",
+            "bgColor": "#29d9c2",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.75,
+            "overlayColor": "#151515",
+            "showTitle": true,
+            "showText": false,
+            "showForm": false
+          },
+          "title1": "Camp Drama Classes",
+          "text": "Nam tellus turpis blandit et ligula vel lacinia massa sit amet minus fugit in ipsum semper euismod massa auctor magna eget nunc iaculis nunc.",
+          "form": {
+            "title": "SUBSCRIBE",
+            "action": "mickhael.cannon@live.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Full Name",
+                "visible": true,
+                "customTitle": "Full Name"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email Address here"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary btn-block\">SUBSCRIBE</a>"
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160620-134917-4032x3024-86-2000x1500-3.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160620-134917-4032x3024-86.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/drama-1-4032x3024-70-2000x1500-88.png",
+                "image": "@PROJECT_PATH@/assets/images/drama-1-4032x3024-70.png",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160620-135209-4032x3024-74-2000x1500-99.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160620-135209-4032x3024-74.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/drama-3-4032x3024-82-2000x1500-90.png",
+                "image": "@PROJECT_PATH@/assets/images/drama-3-4032x3024-82.png",
+                "active": true
+              }
+            ],
+            "bgColor": "#4c6972",
+            "filter": false,
+            "fullWidth": false,
+            "noGutter": true,
+            "showBullets": true,
+            "showText": false
+          },
+          "_anchor": "gallery1-13",
+          "articleLayout": false
+        },
+        {
+          "_inherit": "header4",
+          "alias": "unicore/components",
+          "_name": "header24",
+          "_anchor": "header24-21",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/11.jpg",
+            "bgColor": "#29d9c2",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.75,
+            "overlayColor": "#151515",
+            "showTitle": true,
+            "showText": false,
+            "showForm": false
+          },
+          "title1": "Camp Cooking Classes",
+          "text": "Nam tellus turpis blandit et ligula vel lacinia massa sit amet minus fugit in ipsum semper euismod massa auctor magna eget nunc iaculis nunc.",
+          "form": {
+            "title": "SUBSCRIBE",
+            "action": "mickhael.cannon@live.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Full Name",
+                "visible": true,
+                "customTitle": "Full Name"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email Address here"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary btn-block\">SUBSCRIBE</a>"
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160613-131411-resized-2656x1494-79-2000x1125-43.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160613-131411-resized-2656x1494-79.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/20160615-095605-001-resized-2656x1494-0-2000x1125-3.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160615-095605-001-resized-2656x1494-0.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/cooking-2-2656x1494-61-2000x1125-98.png",
+                "image": "@PROJECT_PATH@/assets/images/cooking-2-2656x1494-61.png",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/cooking-1-2656x1494-92-2000x1125-28.png",
+                "image": "@PROJECT_PATH@/assets/images/cooking-1-2656x1494-92.png",
+                "active": true
+              }
+            ],
+            "bgColor": "#4c6972",
+            "filter": false,
+            "fullWidth": false,
+            "noGutter": true,
+            "showBullets": true,
+            "showText": false
+          },
+          "_anchor": "gallery1-14",
+          "articleLayout": false
+        },
+        {
+          "_inherit": "header4",
+          "alias": "unicore/components",
+          "_name": "header24",
+          "_anchor": "header24-22",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/11.jpg",
+            "bgColor": "#29d9c2",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.75,
+            "overlayColor": "#151515",
+            "showTitle": true,
+            "showText": false,
+            "showForm": false
+          },
+          "title1": "Camp Recreation &amp; Play",
+          "text": "Nam tellus turpis blandit et ligula vel lacinia massa sit amet minus fugit in ipsum semper euismod massa auctor magna eget nunc iaculis nunc.",
+          "form": {
+            "title": "SUBSCRIBE",
+            "action": "mickhael.cannon@live.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Full Name",
+                "visible": true,
+                "customTitle": "Full Name"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email Address here"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary btn-block\">SUBSCRIBE</a>"
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/1466085636439-7303383199-352c0ac5-960x540-33-960x540-2.jpg",
+                "image": "@PROJECT_PATH@/assets/images/1466085636439-7303383199-352c0ac5-960x540-33.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/6-960x540-54-960x540-3.jpg",
+                "image": "@PROJECT_PATH@/assets/images/6-960x540-54.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/1466085636433-4837133555-352c0ac5-960x540-20-960x540-68.jpg",
+                "image": "@PROJECT_PATH@/assets/images/1466085636433-4837133555-352c0ac5-960x540-20.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/b-960x540-36-960x540-0.jpg",
+                "image": "@PROJECT_PATH@/assets/images/b-960x540-36.jpg",
+                "active": true
+              }
+            ],
+            "bgColor": "#4c6972",
+            "filter": false,
+            "fullWidth": false,
+            "noGutter": true,
+            "showBullets": true,
+            "showText": false
+          },
+          "_anchor": "gallery1-23",
+          "articleLayout": false
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "contacts4",
+          "_styles": {
+            "H1": {
+              "font-size": "20px"
+            },
+            "P": {
+              "font-size": "18px"
+            }
+          },
+          "coord": [
+            28.1298421,
+            -81.46968879999997
+          ],
+          "_anchor": "contacts4-7",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#333",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "googleMap": {
+              "placeId": "ChIJtcaxrqlZwokRfwmmibzPsTU",
+              "address": "350 5th Ave, New York, NY 10118",
+              "state": "ok"
+            }
+          },
+          "title1": "APV Kid's Summer Camp",
+          "text1": "Enriching children's lives through the introduction of appreciation in music, art, drama and play...",
+          "icons": "<a class=\"fa\" data-app-btn=\"true\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrLinkColor\"><i class=\"fa fa-linkedin\"></i></a> <a class=\"fa\" data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/AssociationofPoincianaVillages/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrLinkColor\"><i class=\"fa fa-facebook\"></i></a> <a class=\"fa\" data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrLinkColor\"><i class=\"fa fa-twitter\"></i></a> <a class=\"fa\" data-app-btn=\"true\" title=\"Dribble\" target=\"_blank\" href=\"https://dribbble.com/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrLinkColor\"><i class=\"fa fa-dribbble\"></i></a> <a class=\"fa\" data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrLinkColor\"><i class=\"fa fa-google-plus\"></i></a> <a class=\"fa\" data-app-btn=\"true\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrLinkColor\"><i class=\"fa fa-instagram\"></i></a> ",
+          "text2": "APV Summer Camp Hours:<br>Monday - Friday &nbsp; 8AM - 6PM",
+          "title": "Subscribe to APV Lifestyle Newsletter",
+          "form": {
+            "action": "jazz.cannon@fsresidential.com",
+            "alerts": {
+              "success": "Thank you for subscribing to the APV LIFESTYLE Newsletter!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Your Full Name here"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email Address here"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message here"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary btn-ico\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">E-Subscribe For Newsletter<i class=\"fa fa-paper-plane-o\"></i></a>"
+        },
+        {
+          "alias": "unicore/components",
+          "_name": "footer1",
+          "_anchor": "footer1-6",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#111",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515"
+          },
+          "text": "<p>© 2016 <a href=\"http://poincianalifestyle.com\" target=\"_blank\">Association of Poinciana Vilages, Inc</a> - All rights reserved.</p>"
+        },
+        {
+          "_inherit": "soundcloud1",
+          "alias": "soundcloud",
+          "soundURL": "url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F178380574",
+          "_name": "soundcloud2",
+          "_anchor": "soundcloud2-23",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "sound": "https://soundcloud.com/rac/echosmith-cool-kids-rac-mix",
+            "autoplay": true,
+            "bgColor": "#fff",
+            "fullWidth": false
+          },
+          "iframeSRC": "https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F178380574&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"
+        }
+      ]
+    }
+  }
+}
